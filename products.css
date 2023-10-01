@@ -1,0 +1,312 @@
+#application .box{
+    width: 210px;
+    height: 80px;
+    border: 2px solid #f1f1f1;
+    margin-top: 20px;
+}
+#application .img-container img{
+    max-width: 100%;
+}
+#application .app h2{
+    color: #1a2b6d;
+    font-size: 20px;
+}
+#application .spec h2{
+    color: #1a2b6d;
+    font-size: 20px;
+}
+.enquire-btn button{
+    background-color: #d31417;
+    color: #fff;
+    border: none;
+}
+.enquire-btn{
+    margin-top: 20px;
+}
+
+.app h2,.spec h2{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .app h2:after,.spec h2:after{
+    content: '';
+    display: block;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    background-color: #d41317;
+    opacity: 0.4;
+  }
+  @media screen and (max-width:992px) {
+    .app h2:after,.spec h2:after{
+        content: '';
+        display: block;
+        width: 30%;
+        position: absolute;
+        left: 35%;
+        bottom: -10px;
+        height: 2px;
+        background-color: #d41317;
+        opacity: 0.4;
+      }
+      .spec ul li{
+        margin-left: 50px;
+      }
+  }
+  
+  .app ul li,.spec ul li{
+    line-height: 2.5rem;
+    font-size: 15px;
+  }
+  .model-1  button{
+    background-color: #d31417;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+  }
+  .model-1 li{
+    line-height: 1.7rem;
+  }
+
+  #models .img-container{
+    margin-right: 20px;
+  }
+
+  /* slider  */
+ 
+  #bottom-slider .carousel-inner img {
+    max-width: min-content;
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.5) !important;
+    padding: 20px;
+    display: block;
+  }
+  #bottom-slider .carousel-inner{
+  }
+  #bottom-slider .side-controls a {
+  font-size: 3rem;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  }
+  #bottom-slider .side-controls a[data-slide=prev] {
+  left: -4rem;
+  /* background-color: #1a2b6d; */
+  }
+  
+  #bottom-slider .side-controls a[data-slide=next] {
+  right: -3rem;
+  }
+  
+  @media screen and (min-width:479px) and (max-width:768px) {
+   
+    /* #bottom-slider .side-controls a[data-slide=next] {
+      right: 1rem !important; 
+  } */
+  #bottom-slider .img-container{
+    max-width: 100%;
+    position: relative !important;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    justify-content: center;
+   }
+   #bottom-slider .plus-1{
+    position: absolute;
+    top:20px;
+    left: 25% !important;
+   }
+   #bottom-slider .plus-2{
+     position: absolute;
+     left: 25% !important;
+     bottom: 20px;
+   }
+   #bottom-slider .plus-3{
+     position: absolute;
+     bottom: 20px;
+     right: 25% !important;
+   }
+   #bottom-slider .plus-4{
+     position: absolute;
+     top: 20px;
+     right: 25% !important;
+   }
+}
+  #bottom-slider .plus-1{
+   position: absolute;
+   top:20px;
+   left: 20px;
+  }
+  #bottom-slider .plus-2{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  #bottom-slider .plus-3{
+    position: absolute;
+    bottom: 20px;
+    right: 35%;
+  }
+  #bottom-slider .plus-4{
+    position: absolute;
+    top: 20px;
+    right: 35%;
+  }
+  /* .img-container .fa-plus {
+    background-color: #333;
+    color: white; 
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px;
+    text-align: center;
+    line-height: 24px; 
+    position: absolute;
+    cursor: pointer; 
+    z-index: 2; 
+  } */
+  @media screen and (max-width:1150px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 32%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 32%;
+     }
+  }
+  @media screen and (max-width:1100px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 25%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 25%;
+     }
+  }
+  @media screen and (max-width:992px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 20%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 20%;
+     }
+  }
+  @media screen and (max-width:900px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 15%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 15%;
+     }
+  }
+  @media screen and (max-width:768px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 40%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 40%;
+     }
+  }
+  @media screen and (max-width:480px) {
+    #bottom-slider .plus-1{
+      position: absolute;
+      top:20px;
+      left: 20px;
+     }
+     #bottom-slider .plus-2{
+       position: absolute;
+       left: 20px;
+       bottom: 20px;
+     }
+     #bottom-slider .plus-3{
+       position: absolute;
+       bottom: 20px;
+       right: 18%;
+     }
+     #bottom-slider .plus-4{
+       position: absolute;
+       top: 20px;
+       right: 18%;
+     }
+  }
+   #bottom-slider .img-container{
+    max-width: 100%;
+    position: relative !important;
+    overflow: hidden;
+    height: auto;
+   }
+  
